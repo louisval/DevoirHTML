@@ -12,7 +12,7 @@
 
 .Coursecurriculum {
     background-color: rgb(153,102,153);
-    color: rgb(255,255,204);
+    color: rgb(255,255,255);
     border-bottom: 1px solid #000;
     padding: 5px 20px 30px;
 }
@@ -26,22 +26,16 @@
 
 h1, h2
 {
-font-family: helvetica;
+font-family: "Helvetica", "Arial", serif;
 }
 
-.FAQ li
-{
-border: 3px dotted black;
+.questions{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
 }
 
-a
-{
-    color: aqua !important;
-}
-
-a
-{
-    color: white;
-    background-color: black;
-    text-decoration: none;
+.reponses{
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.5);
 }
